@@ -23,6 +23,11 @@ export default function LoginPage() {
     <div className="flex items-center justify-center min-h-screen bg-gray-900">
       <div className="w-full max-w-md p-8 space-y-8 bg-gray-800 rounded-2xl shadow-lg text-center">
         <div>
+          <img
+            src="/kayra_export.jpeg"
+            alt="Kayra Export Logo"
+            className="mx-auto mb-4 w-20 h-20 rounded-full object-cover border-4 border-gray-700"
+          />
           <h2 className="mt-6 text-3xl font-extrabold text-white">
             Hesabınıza Giriş Yapın
           </h2>

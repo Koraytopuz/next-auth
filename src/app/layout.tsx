@@ -19,6 +19,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="tr">
+      <head>
+        <link rel="icon" href="/kayra_export.jpeg" />
+      </head>
       <body className={inter.className}>
         <Providers>
           {children}
